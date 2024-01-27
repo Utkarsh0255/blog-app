@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #512B81;
+    padding: 10px;
+}
+h1{
+    margin: 0;
+    color: #8CABFF;
+    font-family: cursive;
+}
+.addButton{
+    border: 1px solid #35155D;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    background-color: #8CABFF;
+    transition: all .5s;
+}
+.searchbar{
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.addButton:hover{
+    background-color: #512B81;
+    color: #8CABFF;
+}
+/* .searchbar{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px; */
+  /* } */
