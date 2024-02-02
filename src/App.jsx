@@ -33,7 +33,7 @@ function App() {
         ))}
       </div>
       <div className="searchFailed">
-        {filteredBlog.length === 0 && <img className='searchErrorImage' src='src\components\assets\searchfailed.avif'/>}
+        {filteredBlog.length === 0 && <img className='searchErrorImage' src='src\components\assets\searchfailed.avif' alt='Your search not found'/>}
       </div>
     </>
   )
